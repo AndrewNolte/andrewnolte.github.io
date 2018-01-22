@@ -29,7 +29,7 @@
             </ul>
             <nav>
                 <div class="nav-wrapper">
-                    <a href="main.html" class="brand-logo left" style="padding: 0px 10px;"> Andrew Nolte </a>
+                    <a href="index.html" class="brand-logo left" style="padding: 0px 10px;"> Andrew Nolte </a>
                     <ul class="right">
                         <li><a href="documents.asp">Documents</a></li>
                         <li><a class="dropdown-button" href="#!" data-activates="graphs-drop">Graphs<i class="material-icons right"></i></a></li>
