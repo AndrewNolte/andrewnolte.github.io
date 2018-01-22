@@ -4,7 +4,7 @@ var data = [
     {
         "picture" : "FRCImage.png",
         "title" : "FRC",
-        "link" : "documents.asp",
+        "link" : "documents.html",
         "description" : "As programming captain for Vortx 3735, I will be posting documents here about things I'm making and things for other teams to use. Some may even call this 'research'."
     },  
     {
@@ -18,7 +18,7 @@ var data = [
 
         "picture" : "contactImg.png",
         "title" : "Contact",
-        "link" : "contact.asp",
+        "link" : "contact.html",
         "description" : "Contact me if you want to know more about me, my robotics team, my projects, or to hire me!"
     }
 ]
