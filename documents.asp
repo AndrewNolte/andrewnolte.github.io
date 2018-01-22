@@ -20,16 +20,16 @@
 <body>
 	
 	<ul id="graphs-drop" class="dropdown-content">
-		<li><a href="robotics.asp">Robotics</a></li>
-		<li><a href="physics.asp">Physics</a></li>
-		<li><a href="geometry.asp">Geometry</a></li>
-		<li><a href="algebra.asp">Algebra</a></li>
-		<li><a href="calculus.asp">Calculus</a></li>
-		<li><a href="statistics.asp">Statistics</a></li>
+		<li><a href="robotics.html">Robotics</a></li>
+		<li><a href="physics.html">Physics</a></li>
+		<li><a href="geometry.html">Geometry</a></li>
+		<li><a href="algebra.html">Algebra</a></li>
+		<li><a href="calculus.html">Calculus</a></li>
+		<li><a href="statistics.html">Statistics</a></li>
 	</ul>
 	<nav>
 		<div class="nav-wrapper">
-			<a href="main.html" class="brand-logo left"> &nbsp Andrew Nolte </a>
+			<a href="index.html" class="brand-logo left"> &nbsp Andrew Nolte </a>
 			<ul class="right">
 				<li><a href="documents.asp">Documents</a></li>
 				<li><a class="dropdown-button" href="#!" data-activates="graphs-drop">Graphs<i class="material-icons right"></i></a></li>
