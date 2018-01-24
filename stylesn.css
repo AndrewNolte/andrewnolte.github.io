@@ -15,6 +15,23 @@ nav{
     justify-content: space-between;
 }
 
+
+.about-title{
+    text-align: center;
+    display: block;
+    padding: 2px 8px;
+    color: black;
+    font-weight: bold!important;
+    font-size: 2em;
+
+}
+
+.about-link{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
 .graphs-card{
     width: 350px;
     /* clear: both; */
@@ -70,6 +87,8 @@ nav{
 	display: block;
 	padding-top: 100%;
 }
+
+
 iframe {
     position: absolute;
     top: 0;

@@ -13,11 +13,11 @@ $(document).ready(function(){
             // let titlelink = $("<a></a>").attr("href", gdata.link).attr("target", "_blank");
             // titlelink.append(titlespan);
             let imgwrap = $("<div></div>").addClass("about-imgwrap");
-                let image = $("<img></img>").attr("src", gdata.picture).addClass("about-img");
+                let image = $("<img></img>").attr("src", "images/" + gdata.picture).addClass("about-img");
 
             imgwrap.append(image);
-            let titlelink = $("<a></a>").attr("href", gdata.link).attr("target", "_blank");
-                 let titlespan = $("<span></span>").addClass("card-title").text(gdata.title);
+            let titlelink = $("<a></a>").addClass("about-link").attr("href", gdata.link);
+                 let titlespan = $("<span></span>").addClass("about-title").text(gdata.title);
             titlelink.append(titlespan);
             let cardcont = $("<div></div>").addClass("card-content");
                 let par = $("<p></p>").text(gdata.description);
