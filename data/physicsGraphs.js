@@ -17,19 +17,14 @@ var data = [
         "description" : "This models the data collected for a Hooke's law lab, which relates the force a spring exerts when stretched or compressed."
     },
     {
-        "title" : "Pendulum Lab",
-        "link" : "https://www.desmos.com/calculator/xiypji29qu",
-        "description" : "This lab was used to determine whether mass or string length had an effect on the period of a pendulum."
-    },
-    {
-        "title" : "Boyle's Law Lab",
-        "link" : "https://www.desmos.com/calculator/1s0g4gyzg6",
-        "description" : "This lab tested Boyle's law, which describes the inverse relationship of pressure and volume."
-    },
-    {
         "title" : "Projectile Motion",
         "link" : "https://www.desmos.com/calculator/hgwdei012x",
         "description" : "This was the first graph that I really liked, because this was an intriguing optimization problem that I was determined to solve, which turned into me learning about calculus early."
+    },
+    {
+        "title" : "Sound Harmonics",
+        "link" : "https://www.desmos.com/calculator/ne23kdihh3",
+        "description" : "This displays the effect that multiple frequencies have when combined. A major chord consisting of a root, 3rd, and 4th is displayed."
     }
 
 

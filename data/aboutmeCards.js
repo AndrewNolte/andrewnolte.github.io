@@ -10,7 +10,7 @@ var data = [
     {
         "picture" : "desmosImage.png",
         "title" : "Desmos",
-        "link" : "graphs/physics.html",
+        "link" : "graphs/physics2.html",
         "description" : "I love to make tons of graphs on Desmos, whether it be to automate my homework, solve robotics and physics problems, or just have fun with math. Check out my 100+ graphs here!"
         
     },   
