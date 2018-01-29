@@ -37,8 +37,13 @@
 		</ul>
 	</div>	
 </nav>
-        
-        <div class="row">
+<form action="https://formspree.io/anolte512@gmail.com"
+method="POST">
+<input type="text" name="name">
+<input type="email" name="_replyto">
+<input type="submit" value="Send">
+</form>
+        <!-- <div class="row">
 			<div class="col s6 m12">
 				<h3 class="graph-page-title">
 					Contact
@@ -46,7 +51,7 @@
 			</div>
 		</div>
         <div class="container">
-			<form onsubmit="populate()" action="http://formspree.io/anolte512@gmail.com" method="POST">
+			<form action="http://formspree.io/anolte512@gmail.com" method="POST">
           
                 <div class="row">
                     <div class="input-field col s6">
@@ -60,8 +65,8 @@
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-                      <input name="email" type="email" class="validate">
-                      <label for="email">Email</label>
+                      <input name="_replyto" type="email" class="validate">
+                      <label for="_replyto">Email</label>
                     </div>
                   </div>
               <label for="body">Message</label>
@@ -76,7 +81,7 @@
 							 <br>
 							</form>
 					</div>
-			<footer></footer>
+			<footer></footer> -->
 
 
 	<script>
@@ -85,10 +90,10 @@
 		
 			});
 
-			function populate(){
-				$("[name='_subject']").val = $("[name='_subject']").val + $("[name='last_name']").val;
+			// function populate(){
+			// 	$("[name='_subject']").val = $("[name='_subject']").val + $("[name='last_name']").val;
 
-			}
+			// }
 	</script>
 
 	
