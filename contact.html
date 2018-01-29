@@ -46,36 +46,37 @@
 			</div>
 		</div>
         <div class="container">
-            <form action="action_page.php">
+            <form method="post" action="send_form_email.php">
           
                 <div class="row">
                     <div class="input-field col s6">
-                      <input id="first_name" type="text" class="validate">
+                      <input name="first_name" type="text" class="validate">
                       <label for="first_name">First Name</label>
                     </div>
                     <div class="input-field col s6">
-                      <input id="last_name" type="text" class="validate">
+                      <input name="last_name" type="text" class="validate">
                       <label for="last_name">Last Name</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-                      <input id="email" type="email" class="validate">
+                      <input name="email" type="email" class="validate">
                       <label for="email">Email</label>
                     </div>
                   </div>
-              <label for="subject">Message</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
+              <label for="message">Message</label>
+              <textarea id="messge" name="subject" placeholder="Write something.." ></textarea>
           
-							<input type="submit" value="Submit">
-							<br>
+			    <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
+			  <br>
 							<br>
 								Form submission not yet functional. Please feel free to email me at <a href="mailto:anolte512@gmail.com">anolte512@gmail.com</a>
 							 <br>
 							 <br>
 							</form>
 					</div>
-					<footer></footer>
+			<footer></footer>
+
 
 	<script>
 			$(document).ready(function(){
