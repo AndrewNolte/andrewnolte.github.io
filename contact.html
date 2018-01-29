@@ -49,11 +49,11 @@
 
         <div class="container">
 
-			<form action="https://formspree.io/anolte512@gmail.com" method="POST">
-				<input type="text" name="name">
-			  	<input type="email" name="_replyto">
-			  	<input type="submit" value="Send">
-			</form>
+				<form method="POST" action="https://formspree.io/anolte512@gmail.com">
+					<input type="email" name="email" placeholder="Your email">
+					<textarea name="message" placeholder="Your message"></textarea>
+					<button type="submit">Send</button>
+				  </form>
 			<!-- <form action="https://formspree.io/anolte512@gmail.com" method="POST"> -->
 				<!-- <input type="text" name="name"> -->
 
@@ -86,10 +86,8 @@
 				<!-- </form> -->
 					
 		</div>
-		<footer></footer>
 
-
-	<script>
+<script>
 			$(document).ready(function(){
 				$(".dropdown-button").dropdown({hover: true});
 		
