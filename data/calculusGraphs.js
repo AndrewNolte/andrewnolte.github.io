@@ -18,7 +18,7 @@ var data = [
     {
         "title" : "The Slope at a point",
         "link" : "https://www.desmos.com/calculator/h5qm1yonfr",
-        "description" : "My first taste of calculus, before I knew what calculus was. For some reason I was fascinated by trying to find the slope of any point on this graph."
+        "description" : "This was me essentially deriving the power rule when I was bored in AP Physics class."
     },
     {
         "title" : "Reflections on Parabola (fail)",
