@@ -18,7 +18,7 @@ var data = [
         "description" : "In this assignment, I made a web query engine using a shunting algorithm and reverse polish notation, which queried from a web index that I had to build with considerations for space and time efficiency."
     },
     {
-        "picture" : "pathImage.png",
+        "picture" : "PathDrawerImage.png",
         "title" : "Path Drawer",
         "link" : "https://github.com/AndrewNolte/PathDrawer",
         "description" : "I made this application for robotics teams to use and generate their own coordinates of paths for robots to follow, by drawing with Bezier curves or by hand."
@@ -33,6 +33,6 @@ var data = [
         "picture" : "robot2018Image.png",
         "title" : "Robot 2018",
         "link" : "https://github.com/Vortx3735/Robot2018",
-        "description" : "This season was riddle with mechanical failures, but we made a lot of software advances with motion profiling, dashboard UI, offboard vision, and of course, LEDs!"
+        "description" : "This season was riddled with mechanical failures, but we made a lot of software advances with motion profiling, dashboard UI, offboard vision, and of course, LEDs!"
     } 
 ]
