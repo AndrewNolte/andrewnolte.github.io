@@ -1,110 +1,165 @@
 <!DOCTYPE html>
-
-<html>
-
-<head>
-	<meta charset="UTF-8">
-		
-	<title> Andrew Nolte </title>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-	<link rel="stylesheet" href="stylesn.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-
-<body>
-	
-	<ul id="graphs-drop" class="dropdown-content">
-		<li><a href="graphs/robotics.html">Robotics</a></li>
-		<li><a href="graphs/physics.html">Physics</a></li>
-		<li><a href="graphs/physics2.html">Physics 2</a></li>
-		<li><a href="graphs/geometry.html">Geometry</a></li>
-		<li><a href="graphs/calculus.html">Calculus</a></li>
-		<li><a href="graphs/algebra.html">Algebra</a></li>
-		<li><a href="graphs/statistics.html">Statistics</a></li>
-</ul>
-<nav>
-	<div class="nav-wrapper">
-		<a href="index.html" class="brand-logo left hide-on-small-and-down"> &nbsp Andrew Nolte </a>
-		<ul class="right">
-			<li><a href="projects.html">Projects</a></li>
-			<li><a class="dropdown-button" href="#!" data-activates="graphs-drop">Graphs<i class="material-icons right"></i></a></li>
-			<li class="active"><a href="contact.html" >Contact</a></li>
-
-		</ul>
-	</div>	
-</nav>
-
-        <div class="row">
-			<div class="col s6 m12">
-				<h3 class="graph-page-title">
-					Contact
-				</h3>
+<!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Thu Aug 15 2019 08:18:43 GMT+0000 (UTC)  -->
+<html
+	data-wf-page="5d54aecced71c97048a9b747"
+	data-wf-site="5d54aecced71c936cca9b73d"
+>
+	<head>
+		<meta charset="utf-8" />
+		<title>Website</title>
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
+		<meta content="Webflow" name="generator" />
+		<link href="css/normalize.css" rel="stylesheet" type="text/css" />
+		<link href="css/webflow.css" rel="stylesheet" type="text/css" />
+		<link
+			href="css/website-d7ec5a.webflow.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<script
+			src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
+			type="text/javascript"
+		></script>
+		<script type="text/javascript">
+			WebFont.load({
+				google: {
+					families: [
+						"Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic",
+						"Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic"
+					]
+				}
+			});
+		</script>
+		<!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+		<script type="text/javascript">
+			!(function(o, c) {
+				var n = c.documentElement,
+					t = " w-mod-";
+				(n.className += t + "js"),
+					("ontouchstart" in o ||
+						(o.DocumentTouch && c instanceof DocumentTouch)) &&
+						(n.className += t + "touch");
+			})(window, document);
+		</script>
+		<link
+			href="icons/favicon.ico"
+			rel="shortcut icon"
+			type="image/x-icon"
+		/>
+		<link href="icons/webclip.png" rel="apple-touch-icon" />
+	</head>
+	<body>
+		<div class="hero contact-page">
+			<div
+				data-collapse="medium"
+				data-animation="default"
+				data-duration="400"
+				class="nav w-nav"
+			>
+				<div class="w-container">
+					<a href="./index.html" class="logo w-nav-brand">
+						<div class="text-block">N</div>
+					</a>
+					<nav role="navigation" class="nav-menu w-nav-menu">
+						<a href="index.html" class="nav-link w-nav-link"
+							>Projects</a
+						>
+						<div data-hover="1" data-delay="100" class="w-dropdown">
+							<div
+								class="nav-link w-dropdown-toggle"
+								data-ix="new-interaction"
+							>
+								<div class="w-icon-dropdown-toggle"></div>
+								<div>Graphs</div>
+							</div>
+							<nav class="w-dropdown-list">
+								<a href="#" class="w-dropdown-link">Link 1</a
+								><a href="#" class="w-dropdown-link">Link 2</a
+								><a href="#" class="w-dropdown-link">Link 3</a
+								><a href="#" class="w-dropdown-link">Link 4</a>
+							</nav>
+						</div>
+						<a
+							href="contact.html"
+							class="nav-link w-nav-link w--current"
+							>Contact</a
+						>
+					</nav>
+					<div class="menu-button w-nav-button">
+						<div class="w-icon-nav-menu"></div>
+					</div>
+				</div>
+			</div>
+			<div class="heading-wrapper w-container">
+				<h1 class="main-heading">Contact</h1>
 			</div>
 		</div>
-
-
-        <div class="container">
-
-				<!-- <form method="POST" action="https://formspree.io/anolte512@gmail.com">
-					<input type="email" name="email" placeholder="Your email">
-					<textarea name="message" placeholder="Your message"></textarea>
-					<button type="submit">Send</button>
-				  </form> -->
-
-			<form method="POST" action="https://formspree.io/anolte512@gmail.com">
-
-                <div class="row">
-                    <div class="input-field col s6">
-						<label for="first_name">First Name</label>
-                      	<input name="first_name" type="text" class="validate">
-                    </div>
-                    <div class="input-field col s6">
-						<label for="last_name">Last Name</label>
-                      	<input name="last_name" type="text" class="validate">
-                    </div>
+		<div>
+			<div class="w-container">
+				<div class="form w-form">
+					<form
+						method="POST"
+						action="https://formspree.io/anolte512@gmail.com"
+						id="email-form"
+						name="email-form"
+						data-name="Email Form"
+					>
+						<label for="name" class="field">Name</label
+						><input
+							type="text"
+							id="name"
+							name="name"
+							data-name="Name"
+							placeholder="Enter your name"
+							maxlength="256"
+							class="input w-input"
+						/><label for="email" class="field">Email Address</label
+						><input
+							type="email"
+							id="email"
+							name="email"
+							data-name="Email"
+							placeholder="Enter your email address"
+							maxlength="256"
+							required=""
+							class="input w-input"
+						/><label for="field" class="field">Message</label
+						><textarea
+							id="field"
+							name="field"
+							placeholder="Example Text"
+							maxlength="5000"
+							class="input text-area w-input"
+						></textarea
+						><input
+							type="submit"
+							value="Submit"
+							data-wait="Please wait..."
+							class="button submit w-button"
+						/>
+					</form>
+					<div class="success w-form-done">
+						<p class="success-message">
+							Thank you! I&#x27;ll be in touch shortly.
+						</p>
+					</div>
+					<div class="w-form-fail">
+						<p>
+							Oops! Something went wrong while submitting the form
+						</p>
+					</div>
 				</div>
-				
-                <div class="row">
-                    <div class="input-field col s12">
-						<label for="email">Email</label>
-						<input type="email" name="email" class="validate">
-                    </div>
-				</div>
-
-				<textarea name="message" placeholder="Write something..." class="validate"></textarea>
-
-				<input type="hidden" name="_next" value="indx.html" />
-
-				<button type="submit">Submit</button>
-				<!-- <br>
-				<br>
-				Form submission not yet functional. Please feel free to email me at <a href="mailto:anolte512@gmail.com">anolte512@gmail.com</a>
-				<br>
-				<br> -->
-				<!-- </form> -->
-					
+			</div>
 		</div>
-
-<script>
-			$(document).ready(function(){
-				$(".dropdown-button").dropdown({hover: true});
-		
-			});
-
-			// function populate(){
-			// 	$("[name='_subject']").val = $("[name='_subject']").val + $("[name='last_name']").val;
-
-			// }
-	</script>
-
-	
-</body>
-
-
-
-
+		<div class="footer"></div>
+		<script
+			src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js"
+			type="text/javascript"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			crossorigin="anonymous"
+		></script>
+		<script src="js/webflow.js" type="text/javascript"></script>
+		<!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+	</body>
 </html>
