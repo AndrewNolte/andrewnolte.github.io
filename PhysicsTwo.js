@@ -8,60 +8,60 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Robotics = function (_React$Component) {
-	_inherits(Robotics, _React$Component);
+var PhysicsTwo = function (_React$Component) {
+	_inherits(PhysicsTwo, _React$Component);
 
-	function Robotics() {
-		_classCallCheck(this, Robotics);
+	function PhysicsTwo() {
+		_classCallCheck(this, PhysicsTwo);
 
-		return _possibleConstructorReturn(this, (Robotics.__proto__ || Object.getPrototypeOf(Robotics)).apply(this, arguments));
+		return _possibleConstructorReturn(this, (PhysicsTwo.__proto__ || Object.getPrototypeOf(PhysicsTwo)).apply(this, arguments));
 	}
 
-	_createClass(Robotics, [{
+	_createClass(PhysicsTwo, [{
 		key: "render",
 		value: function render() {
 			return React.createElement(
 				"div",
 				null,
 				React.createElement(DesmosCard, {
-					name: "Sinusoidal Profile (vi, vf, d)",
-					link: "https://www.desmos.com/calculator/uflcb1tpbg",
-					desc: "A graph that models a sinusoidal motion profile for the robot, which is defined in terms of initial velocity, final velocity, and distance."
+					name: "Equipotential Lines",
+					link: "https://www.desmos.com/calculator/oppngbzxm9",
+					desc: "This visualizes the equipotential lines that lie between charged particles. More particles can be added and moved around, and the z value will change the charge of that particle."
 				}),
 				React.createElement(DesmosCard, {
-					name: "Sinusoidal Profile (vi, d, a)",
-					link: "https://www.desmos.com/calculator/zdsplsxxvt",
-					desc: "A graph that models a sinusoidal motion profile for the robot, which is defined in terms of initial velocity, distance, and peak acceleration."
+					name: "Lenses",
+					link: "https://www.desmos.com/calculator/vuvjkn4b1v",
+					desc: "This is a visualization for an image that is transformed by a lense. You can move the point around, and see where the image will be on the other side. You can also rotate the lense, and see what effect that has."
 				}),
 				React.createElement(DesmosCard, {
-					name: "Bezier Curves",
-					link: "https://www.desmos.com/calculator/kfxusqrzxr",
-					desc: "The type of curve that the robot follows. (I obviously didn't invent the curve!)"
+					name: "Snell's Law",
+					link: "https://www.desmos.com/calculator/ahwgongbkg",
+					desc: "This visualizes snell's law, as well as solves related problems. Snell's law determines the angle at which light is refracted when passing through different mediums."
 				}),
 				React.createElement(DesmosCard, {
-					name: "Arcade vs Normal Drive",
-					link: "https://www.desmos.com/calculator/rkrejt1t0m",
-					desc: 'A quick little visualization that shows the difference between FRC\'s standard "Arcade Drive" and the generic "Normal Drive"'
+					name: "A Rolling Wheel",
+					link: "https://www.desmos.com/calculator/y3ufqgce0b",
+					desc: "This simply demonstrated the motion of a point on a rolling wheel, a useful application of parametrics."
 				}),
 				React.createElement(DesmosCard, {
-					name: "Trapezoidal Profile",
-					link: "https://www.desmos.com/calculator/kwjz1rftld",
-					desc: "A model of a trapzoidal motion profile, in which acceleration is ramped up and down."
+					name: "Pendulum Lab",
+					link: "https://www.desmos.com/calculator/xiypji29qu",
+					desc: "This lab was used to determine whether mass or string length had an effect on the period of a pendulum."
 				}),
 				React.createElement(DesmosCard, {
-					name: "Exponential Drive",
-					link: "https://www.desmos.com/calculator/purgigwz0v",
-					desc: "A model of the teleop drive function used in the 2016 and 2017 seasons. Will be replaced with something revolutionary..."
+					name: "Boyle's Law Lab",
+					link: "https://www.desmos.com/calculator/1s0g4gyzg6",
+					desc: "This lab tested Boyle's law, which describes the inverse relationship of pressure and volume."
 				})
 			);
 		}
 	}]);
 
-	return Robotics;
+	return PhysicsTwo;
 }(React.Component);
 
 var domContainer = document.querySelector("#project-drop-id");
-ReactDOM.render(React.createElement(Robotics, null), domContainer);
+ReactDOM.render(React.createElement(PhysicsTwo, null), domContainer);
 
 {
 	/* <DesmosCard

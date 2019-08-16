@@ -1,5 +1,5 @@
 "use strict";
-class Projects extends React.Component {
+class Robotics extends React.Component {
 	render() {
 		return (
 			<div>
@@ -41,7 +41,7 @@ class Projects extends React.Component {
 }
 
 let domContainer = document.querySelector("#project-drop-id");
-ReactDOM.render(<Projects />, domContainer);
+ReactDOM.render(<Robotics />, domContainer);
 
 {
 	/* <DesmosCard

@@ -26,42 +26,46 @@ var NavBar = function (_React$Component) {
 					"data-collapse": "medium",
 					"data-animation": "default",
 					"data-duration": "400",
-					"class": "nav w-nav"
+					className: "nav w-nav"
 				},
 				React.createElement(
 					"div",
-					{ "class": "w-container" },
+					{ className: "w-container" },
 					React.createElement(
 						"a",
-						{ href: "#", "class": "logo w-nav-brand" },
+						{ href: "#", className: "logo w-nav-brand" },
 						React.createElement(
 							"div",
-							{ "class": "text-block" },
+							{ className: "text-block" },
 							"N"
 						)
 					),
 					React.createElement(
 						"nav",
-						{ role: "navigation", "class": "nav-menu w-nav-menu" },
+						{ role: "navigation", className: "nav-menu w-nav-menu" },
 						React.createElement(
 							"a",
 							{
 								target: "_blank",
 								href: "https://github.com/AndrewNolte",
-								"class": "nav-link w-nav-link w--current"
+								className: "nav-link w-nav-link w--current"
 							},
 							"Projects"
 						),
 						React.createElement(
 							"div",
-							{ "data-hover": "1", "data-delay": "100", "class": "w-dropdown" },
+							{
+								"data-hover": "1",
+								"data-delay": "100",
+								className: "w-dropdown"
+							},
 							React.createElement(
 								"div",
 								{
-									"class": "nav-link w-dropdown-toggle",
+									className: "nav-link w-dropdown-toggle",
 									"data-ix": "new-interaction"
 								},
-								React.createElement("div", { "class": "w-icon-dropdown-toggle" }),
+								React.createElement("div", { className: "w-icon-dropdown-toggle" }),
 								React.createElement(
 									"div",
 									null,
@@ -70,12 +74,12 @@ var NavBar = function (_React$Component) {
 							),
 							React.createElement(
 								"nav",
-								{ "class": "w-dropdown-list" },
+								{ className: "w-dropdown-list" },
 								React.createElement(
 									"a",
 									{
 										href: "./robotics.html",
-										"class": "w-dropdown-link"
+										className: "w-dropdown-link"
 									},
 									"Robotics"
 								),
@@ -83,7 +87,7 @@ var NavBar = function (_React$Component) {
 									"a",
 									{
 										href: "./physics.html",
-										"class": "w-dropdown-link"
+										className: "w-dropdown-link"
 									},
 									"Physics"
 								),
@@ -91,7 +95,7 @@ var NavBar = function (_React$Component) {
 									"a",
 									{
 										href: "./physics2.html",
-										"class": "w-dropdown-link"
+										className: "w-dropdown-link"
 									},
 									"Physics 2"
 								),
@@ -99,7 +103,7 @@ var NavBar = function (_React$Component) {
 									"a",
 									{
 										href: "./geometry.html",
-										"class": "w-dropdown-link"
+										className: "w-dropdown-link"
 									},
 									"Geometry"
 								),
@@ -107,7 +111,7 @@ var NavBar = function (_React$Component) {
 									"a",
 									{
 										href: "./calculus.html",
-										"class": "w-dropdown-link"
+										className: "w-dropdown-link"
 									},
 									"Calculus"
 								),
@@ -115,7 +119,7 @@ var NavBar = function (_React$Component) {
 									"a",
 									{
 										href: "./algebra.html",
-										"class": "w-dropdown-link"
+										className: "w-dropdown-link"
 									},
 									"Algebra"
 								),
@@ -123,7 +127,7 @@ var NavBar = function (_React$Component) {
 									"a",
 									{
 										href: "./statistics.html",
-										"class": "w-dropdown-link"
+										className: "w-dropdown-link"
 									},
 									"Statistics"
 								)
@@ -131,14 +135,14 @@ var NavBar = function (_React$Component) {
 						),
 						React.createElement(
 							"a",
-							{ href: "contact.html", "class": "nav-link w-nav-link" },
+							{ href: "contact.html", className: "nav-link w-nav-link" },
 							"Contact"
 						)
 					),
 					React.createElement(
 						"div",
-						{ "class": "menu-button w-nav-button" },
-						React.createElement("div", { "class": "w-icon-nav-menu" })
+						{ className: "menu-button w-nav-button" },
+						React.createElement("div", { className: "w-icon-nav-menu" })
 					)
 				)
 			);
@@ -148,5 +152,5 @@ var NavBar = function (_React$Component) {
 	return NavBar;
 }(React.Component);
 
-var domContainer = document.querySelector("#project-drop-id");
+var domContainer = document.querySelector("#nav-id");
 ReactDOM.render(React.createElement(NavBar, null), domContainer);

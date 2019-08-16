@@ -37,10 +37,10 @@
 			!(function(o, c) {
 				var n = c.documentElement,
 					t = " w-mod-";
-				(n.className += t + "js"),
+				(n.class += t + "js"),
 					("ontouchstart" in o ||
 						(o.DocumentTouch && c instanceof DocumentTouch)) &&
-						(n.className += t + "touch");
+						(n.class += t + "touch");
 			})(window, document);
 		</script>
 
@@ -62,14 +62,11 @@
 				class="nav w-nav"
 			>
 				<div class="w-container">
-					<a href="#" class="logo w-nav-brand">
+					<a href="./index.html" class="logo w-nav-brand">
 						<div class="text-block">N</div>
 					</a>
 					<nav role="navigation" class="nav-menu w-nav-menu">
-						<a
-							target="_blank"
-							href="https://github.com/AndrewNolte"
-							class="nav-link w-nav-link w--current"
+						<a href="index.html" class="nav-link w-nav-link"
 							>Projects</a
 						>
 						<div data-hover="1" data-delay="100" class="w-dropdown">
@@ -84,35 +81,50 @@
 								<a
 									href="./robotics.html"
 									class="w-dropdown-link"
-									>Robotics</a
-								><a
+								>
+									Robotics
+								</a>
+								<a
 									href="./physics.html"
 									class="w-dropdown-link"
-									>Physics</a
-								><a
+								>
+									Physics
+								</a>
+								<a
 									href="./physics2.html"
 									class="w-dropdown-link"
-									>Physics 2</a
-								><a
+								>
+									Physics 2
+								</a>
+								<a
 									href="./geometry.html"
 									class="w-dropdown-link"
-									>Geometry</a
-								><a
+								>
+									Geometry
+								</a>
+								<a
 									href="./calculus.html"
 									class="w-dropdown-link"
-									>Calculus</a
-								><a
+								>
+									Calculus
+								</a>
+								<a
 									href="./algebra.html"
 									class="w-dropdown-link"
-									>Algebra</a
-								><a
+								>
+									Algebra
+								</a>
+								<a
 									href="./statistics.html"
 									class="w-dropdown-link"
-									>Statistics</a
 								>
+									Statistics
+								</a>
 							</nav>
 						</div>
-						<a href="contact.html" class="nav-link w-nav-link"
+						<a
+							href="contact.html"
+							class="nav-link w-nav-link w--current"
 							>Contact</a
 						>
 					</nav>
@@ -121,6 +133,7 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="heading-wrapper w-container">
 				<h1 class="main-heading">Andrew Nolte</h1>
 				<p>Turing Scholar at UT Austin. SWE Intern at ARL</p>
@@ -178,5 +191,6 @@
 		></script>
 		<script src="Card.js"></script>
 		<script src="Projects.js"></script>
+		<script src="NavBar.js"></script>
 	</body>
 </html>

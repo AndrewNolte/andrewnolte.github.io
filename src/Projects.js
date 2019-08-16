@@ -55,6 +55,5 @@ class Projects extends React.Component {
 		);
 	}
 }
-
 let domContainer = document.querySelector("#project-drop-id");
 ReactDOM.render(<Projects />, domContainer);

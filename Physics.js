@@ -8,60 +8,55 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Robotics = function (_React$Component) {
-	_inherits(Robotics, _React$Component);
+var Physics = function (_React$Component) {
+	_inherits(Physics, _React$Component);
 
-	function Robotics() {
-		_classCallCheck(this, Robotics);
+	function Physics() {
+		_classCallCheck(this, Physics);
 
-		return _possibleConstructorReturn(this, (Robotics.__proto__ || Object.getPrototypeOf(Robotics)).apply(this, arguments));
+		return _possibleConstructorReturn(this, (Physics.__proto__ || Object.getPrototypeOf(Physics)).apply(this, arguments));
 	}
 
-	_createClass(Robotics, [{
+	_createClass(Physics, [{
 		key: "render",
 		value: function render() {
 			return React.createElement(
 				"div",
 				null,
 				React.createElement(DesmosCard, {
-					name: "Sinusoidal Profile (vi, vf, d)",
-					link: "https://www.desmos.com/calculator/uflcb1tpbg",
-					desc: "A graph that models a sinusoidal motion profile for the robot, which is defined in terms of initial velocity, final velocity, and distance."
+					name: "Inclined Plane",
+					link: "https://www.desmos.com/calculator/vemgmg5gmd",
+					desc: "The very first graph I saved, used to do physics homework."
 				}),
 				React.createElement(DesmosCard, {
-					name: "Sinusoidal Profile (vi, d, a)",
-					link: "https://www.desmos.com/calculator/zdsplsxxvt",
-					desc: "A graph that models a sinusoidal motion profile for the robot, which is defined in terms of initial velocity, distance, and peak acceleration."
+					name: "Modified Atwoods Machine",
+					link: "https://www.desmos.com/calculator/witvwhzjgg",
+					desc: "Model of an atwoods machine, for solving related physics problems (Two weights connected with a string)"
 				}),
 				React.createElement(DesmosCard, {
-					name: "Bezier Curves",
-					link: "https://www.desmos.com/calculator/kfxusqrzxr",
-					desc: "The type of curve that the robot follows. (I obviously didn't invent the curve!)"
+					name: "Hooke's Law Lab",
+					link: "https://www.desmos.com/calculator/nkuin1ixzp",
+					desc: "This models the data collected for a Hooke's law lab, which relates the force a spring exerts when stretched or compressed."
 				}),
 				React.createElement(DesmosCard, {
-					name: "Arcade vs Normal Drive",
-					link: "https://www.desmos.com/calculator/rkrejt1t0m",
-					desc: 'A quick little visualization that shows the difference between FRC\'s standard "Arcade Drive" and the generic "Normal Drive"'
+					name: "Projectile Motion",
+					link: "https://www.desmos.com/calculator/hgwdei012x",
+					desc: "This was the first graph that I really liked, because this was an intriguing optimization problem that I was determined to solve, which turned into me learning about calculus early."
 				}),
 				React.createElement(DesmosCard, {
-					name: "Trapezoidal Profile",
-					link: "https://www.desmos.com/calculator/kwjz1rftld",
-					desc: "A model of a trapzoidal motion profile, in which acceleration is ramped up and down."
-				}),
-				React.createElement(DesmosCard, {
-					name: "Exponential Drive",
-					link: "https://www.desmos.com/calculator/purgigwz0v",
-					desc: "A model of the teleop drive function used in the 2016 and 2017 seasons. Will be replaced with something revolutionary..."
+					name: "Sound Harmonics",
+					link: "https://www.desmos.com/calculator/ne23kdihh3",
+					desc: "This displays the effect that multiple frequencies have when combined. A major chord consisting of a root, 3rd, and 4th is displayed."
 				})
 			);
 		}
 	}]);
 
-	return Robotics;
+	return Physics;
 }(React.Component);
 
 var domContainer = document.querySelector("#project-drop-id");
-ReactDOM.render(React.createElement(Robotics, null), domContainer);
+ReactDOM.render(React.createElement(Physics, null), domContainer);
 
 {
 	/* <DesmosCard

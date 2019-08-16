@@ -8,60 +8,45 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var Robotics = function (_React$Component) {
-	_inherits(Robotics, _React$Component);
+var Statistics = function (_React$Component) {
+	_inherits(Statistics, _React$Component);
 
-	function Robotics() {
-		_classCallCheck(this, Robotics);
+	function Statistics() {
+		_classCallCheck(this, Statistics);
 
-		return _possibleConstructorReturn(this, (Robotics.__proto__ || Object.getPrototypeOf(Robotics)).apply(this, arguments));
+		return _possibleConstructorReturn(this, (Statistics.__proto__ || Object.getPrototypeOf(Statistics)).apply(this, arguments));
 	}
 
-	_createClass(Robotics, [{
+	_createClass(Statistics, [{
 		key: "render",
 		value: function render() {
 			return React.createElement(
 				"div",
 				null,
 				React.createElement(DesmosCard, {
-					name: "Sinusoidal Profile (vi, vf, d)",
-					link: "https://www.desmos.com/calculator/uflcb1tpbg",
-					desc: "A graph that models a sinusoidal motion profile for the robot, which is defined in terms of initial velocity, final velocity, and distance."
+					name: "Probability Curves",
+					link: "https://www.desmos.com/calculator/fs7m11nqx0",
+					desc: "This graph allows input for data to visualize a probability curve, and then analyze that data by displaying the mean, variance, and standard deviation."
 				}),
 				React.createElement(DesmosCard, {
-					name: "Sinusoidal Profile (vi, d, a)",
-					link: "https://www.desmos.com/calculator/zdsplsxxvt",
-					desc: "A graph that models a sinusoidal motion profile for the robot, which is defined in terms of initial velocity, distance, and peak acceleration."
+					name: "Combinations",
+					link: "https://www.desmos.com/calculator/4luguf7yam",
+					desc: "This graph allows input for the number of subjects and probability of success, and outputs the probability that a specific number of subjects succeed. It also allows for calculation of ranges of these numbers."
 				}),
 				React.createElement(DesmosCard, {
-					name: "Bezier Curves",
-					link: "https://www.desmos.com/calculator/kfxusqrzxr",
-					desc: "The type of curve that the robot follows. (I obviously didn't invent the curve!)"
-				}),
-				React.createElement(DesmosCard, {
-					name: "Arcade vs Normal Drive",
-					link: "https://www.desmos.com/calculator/rkrejt1t0m",
-					desc: 'A quick little visualization that shows the difference between FRC\'s standard "Arcade Drive" and the generic "Normal Drive"'
-				}),
-				React.createElement(DesmosCard, {
-					name: "Trapezoidal Profile",
-					link: "https://www.desmos.com/calculator/kwjz1rftld",
-					desc: "A model of a trapzoidal motion profile, in which acceleration is ramped up and down."
-				}),
-				React.createElement(DesmosCard, {
-					name: "Exponential Drive",
-					link: "https://www.desmos.com/calculator/purgigwz0v",
-					desc: "A model of the teleop drive function used in the 2016 and 2017 seasons. Will be replaced with something revolutionary..."
+					name: "Geometric Curves",
+					link: "https://www.desmos.com/calculator/bda2rimxc3",
+					desc: "This graph allows input for the number of trials, and the probability of success, and then outputs the chance that it takes c times to get a success, and optionally sums this function to get the probability it takes less than c times."
 				})
 			);
 		}
 	}]);
 
-	return Robotics;
+	return Statistics;
 }(React.Component);
 
 var domContainer = document.querySelector("#project-drop-id");
-ReactDOM.render(React.createElement(Robotics, null), domContainer);
+ReactDOM.render(React.createElement(Statistics, null), domContainer);
 
 {
 	/* <DesmosCard
