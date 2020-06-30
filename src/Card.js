@@ -29,7 +29,7 @@ class Image extends React.Component {
 		return (
 			<div>
 				{this.getDesc(this.props.desc)}
-				<img src={this.props.src} alt="" className="project-image" />
+				<img  src={this.props.src} alt="" className="project-image" />
 			</div>
 		);
 	}

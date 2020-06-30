@@ -3,12 +3,27 @@ class Projects extends React.Component {
 	render() {
 		return (
 			<div>
+				<Card name="Catan Tool" link="http://3.135.222.85:8501/">
+					<Image src="./images/catansite.jpg" />
+				</Card>
 				<Card
+					name="Lego Spirograph"
+					link="https://medium.com/@anolte512/making-a-lego-spirograph-and-then-modeling-it-7b10dfa1d847?source=friends_link&sk=61e1532e50168a0953de5f12102b708e"
+				>
+					<Image src="./images/spiro.jpg" />
+				</Card>
+				<Card
+					name="ParseArgs"
+					link="https://github.com/AndrewNolte/ParseArgs"
+				>
+					<Image src="./images/code.jpg" />
+				</Card>
+				{/* <Card
 					name="RobotPy"
 					link="https://github.com/AndrewNolte/RobotPy"
 				>
 					<Image src="./images/robot.jpg" />
-				</Card>
+				</Card> */}
 				<Card
 					name="FPGA Flight Controller"
 					link="https://github.com/kevin3-black/fpga-flight-controller"

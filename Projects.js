@@ -25,11 +25,24 @@ var Projects = function (_React$Component) {
 				null,
 				React.createElement(
 					Card,
+					{ name: "Catan Tool", link: "http://3.135.222.85:8501/" },
+					React.createElement(Image, { src: "./images/catansite.jpg" })
+				),
+				React.createElement(
+					Card,
 					{
-						name: "RobotPy",
-						link: "https://github.com/AndrewNolte/RobotPy"
+						name: "Lego Spirograph",
+						link: "https://medium.com/@anolte512/making-a-lego-spirograph-and-then-modeling-it-7b10dfa1d847?source=friends_link&sk=61e1532e50168a0953de5f12102b708e"
 					},
-					React.createElement(Image, { src: "./images/robot.jpg" })
+					React.createElement(Image, { src: "./images/spiro.jpg" })
+				),
+				React.createElement(
+					Card,
+					{
+						name: "ParseArgs",
+						link: "https://github.com/AndrewNolte/ParseArgs"
+					},
+					React.createElement(Image, { src: "./images/code.jpg" })
 				),
 				React.createElement(
 					Card,
