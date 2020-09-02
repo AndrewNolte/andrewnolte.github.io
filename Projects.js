@@ -25,7 +25,7 @@ var Projects = function (_React$Component) {
 				null,
 				React.createElement(
 					Card,
-					{ name: "Catan Tool", link: "http://3.135.222.85:8501/" },
+					{ name: "Catan Tool", link: "https://andrewnolte.github.io/catan/" },
 					React.createElement(Image, { src: "./images/catansite.jpg" })
 				),
 				React.createElement(

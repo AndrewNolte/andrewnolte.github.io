@@ -3,7 +3,7 @@ class Projects extends React.Component {
 	render() {
 		return (
 			<div>
-				<Card name="Catan Tool" link="http://3.135.222.85:8501/">
+				<Card name="Catan Tool" link="https://andrewnolte.github.io/catan/">
 					<Image src="./images/catansite.jpg" />
 				</Card>
 				<Card
