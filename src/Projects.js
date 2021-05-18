@@ -3,6 +3,20 @@ class Projects extends React.Component {
 	render() {
 		return (
 			<div>
+				<Card
+					name="Ray-Traced GPU Fluid Simulation"
+					link="https://www.youtube.com/watch?v=ZCC11_GWteU&ab_channel=RussellColemanRussellColeman"
+				>
+					<Image src="./images/fluidsim.png" />
+				</Card>
+
+				<Card
+					name="3D WebGl Animator"
+					link="https://www.youtube.com/watch?v=H3APk6ERqJk&ab_channel=RussellColemanRussellColeman"
+				>
+					<Image src="./images/doggy.png" />
+				</Card>
+
 				<Card name="Catan Tool" link="https://andrewnolte.github.io/catan/">
 					<Image src="./images/catansite.jpg" />
 				</Card>
@@ -12,12 +26,13 @@ class Projects extends React.Component {
 				>
 					<Image src="./images/spiro.jpg" />
 				</Card>
-				<Card
+				
+				{/* <Card
 					name="ParseArgs"
 					link="https://github.com/AndrewNolte/ParseArgs"
 				>
 					<Image src="./images/code.jpg" />
-				</Card>
+				</Card> */}
 				{/* <Card
 					name="RobotPy"
 					link="https://github.com/AndrewNolte/RobotPy"

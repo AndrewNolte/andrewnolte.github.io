@@ -26,10 +26,18 @@ var Projects = function (_React$Component) {
 				React.createElement(
 					Card,
 					{
-						name: "Ray-traced Fluid Simulation",
-						link: "https://github.com/AndrewNolte/ParseArgs"
+						name: "Ray-Traced GPU Fluid Simulation",
+						link: "https://www.youtube.com/watch?v=ZCC11_GWteU&ab_channel=RussellColemanRussellColeman"
 					},
-					React.createElement(Image, { src: "./images/code.jpg" })
+					React.createElement(Image, { src: "./images/fluidsim.png" })
+				),
+				React.createElement(
+					Card,
+					{
+						name: "3D WebGl Animator",
+						link: "https://www.youtube.com/watch?v=H3APk6ERqJk&ab_channel=RussellColemanRussellColeman"
+					},
+					React.createElement(Image, { src: "./images/doggy.png" })
 				),
 				React.createElement(
 					Card,
@@ -44,14 +52,6 @@ var Projects = function (_React$Component) {
 					},
 					React.createElement(Image, { src: "./images/spiro.jpg" })
 				),
-				// React.createElement(
-				// 	Card,
-				// 	{
-				// 		name: "ParseArgs",
-				// 		link: "https://github.com/AndrewNolte/ParseArgs"
-				// 	},
-				// 	React.createElement(Image, { src: "./images/code.jpg" })
-				// ),
 				React.createElement(
 					Card,
 					{
