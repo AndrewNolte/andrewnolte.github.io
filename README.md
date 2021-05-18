@@ -1,3 +1,8 @@
+# install libs on new machine
+```bash
+npm install
+```
+
 # To compile jsx
 
 ```bash

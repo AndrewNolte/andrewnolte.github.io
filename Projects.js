@@ -25,6 +25,14 @@ var Projects = function (_React$Component) {
 				null,
 				React.createElement(
 					Card,
+					{
+						name: "Ray-traced Fluid Simulation",
+						link: "https://github.com/AndrewNolte/ParseArgs"
+					},
+					React.createElement(Image, { src: "./images/code.jpg" })
+				),
+				React.createElement(
+					Card,
 					{ name: "Catan Tool", link: "https://andrewnolte.github.io/catan/" },
 					React.createElement(Image, { src: "./images/catansite.jpg" })
 				),
@@ -36,14 +44,14 @@ var Projects = function (_React$Component) {
 					},
 					React.createElement(Image, { src: "./images/spiro.jpg" })
 				),
-				React.createElement(
-					Card,
-					{
-						name: "ParseArgs",
-						link: "https://github.com/AndrewNolte/ParseArgs"
-					},
-					React.createElement(Image, { src: "./images/code.jpg" })
-				),
+				// React.createElement(
+				// 	Card,
+				// 	{
+				// 		name: "ParseArgs",
+				// 		link: "https://github.com/AndrewNolte/ParseArgs"
+				// 	},
+				// 	React.createElement(Image, { src: "./images/code.jpg" })
+				// ),
 				React.createElement(
 					Card,
 					{
